@@ -30,6 +30,12 @@
     margin-bottom: 20px;
 }
 
+.image-modal-content:hover {
+    transform: scale(1.03);
+    transition: 300ms ease-in;
+    cursor: pointer;
+}
+
 @media (max-width: 992px) {
     .modal-content-wrapper .image-modal-content {
         flex: 0 0 45%;
