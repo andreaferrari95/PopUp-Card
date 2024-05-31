@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://i.postimg.cc/TwMCxV9k/bg2.jpg) center no-repeat;
+    background-size: cover;
+    font-family: "Permanent Marker", cursive;
+    transition: 0.5s;
+}
+
+.center {
+    text-align: center;
+    width: 80%;
+    border-radius: 5px;
+    z-index: 5;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 2rem 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #fff;
+}
+
+button {
+    padding: 1rem 4rem;
+    background-color: rgba(0, 225, 255, 0.849);
+    color: #fff;
+    font-size: large;
+    text-transform: capitalize;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.pop-btn:hover {
+    background-color: rgb(25, 164, 182);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.modal-parent {
+    position: fixed;
+    inset: 0;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+.modal {
+    background: white;
+    width: 70%;
+    padding: 30px;
+    border-radius: 6px;
+    position: absolute;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    animation: 1s drop;
+    position: relative;
+}
+
+@keyframes drop {
+    0% {
+        top: -100px;
+    }
+
+    100% {
+        top: 50%;
+    }
+}
+
+.x {
+    position: absolute;
+    inset: 10px 20px auto auto;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .modal,
+    .center {
+        width: 80%;
+        padding: 1rem;
+        line-height: 1.4rem;
+        word-spacing: 3px;
+        font-size: small;
+    }
+
+    button {
+        padding: 1rem;
+        font-size: medium;
+    }
+
+    h1 {
+        font-size: x-large;
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+    }
+}
