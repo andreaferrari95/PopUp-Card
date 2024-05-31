@@ -1,20 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-body {
-    background-color: black;
-}
-
 section {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(https://i.postimg.cc/TwMCxV9k/bg2.jpg) center no-repeat;
+    background: url(https://smartpart.dev-webfellows.de/media/a0/4e/27/1716971853/mobile-devices-display-shop_972478-10574.jpg) center no-repeat;
     background-size: cover;
     font-family: "Permanent Marker", cursive;
     transition: 0.5s;
@@ -28,7 +17,7 @@ section {
     padding: 1rem;
 }
 
-h1 {
+h2 {
     font-size: 3rem;
     padding: 2rem 1rem;
     text-transform: capitalize;
