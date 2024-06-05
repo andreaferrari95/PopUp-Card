@@ -1,5 +1,5 @@
 // all images inside the image modal content class
-const lightboxImages = document.querySelectorAll(".image-modal-content img");
+const lightboxImages = document.querySelectorAll(".images-smp");
 
 // dynamically selects all elements inside modal popup
 const modalElement = (element) =>
