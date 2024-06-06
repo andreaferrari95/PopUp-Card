@@ -133,9 +133,9 @@
     width: 50px;
     height: 50px;
     top: -13px;
-    right: 51px;
+    right: 45px;
     font-size: 4rem;
-    color: red;
+    color: #0ba3bb;
 
 }
 
@@ -148,9 +148,9 @@
 
     width: 50px;
     height: 50px;
-    border: 5px solid red;
+    border: 5px solid #0ba3bb;
     position: absolute;
     top: 7px;
-    right: 50px;
+    right: 44px;
     border-radius: 50%;
 }
